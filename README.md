@@ -1,4 +1,4 @@
-# Bootstrap Optimization 1.0.0
+# Bootstrap Optimization
 
 [![](https://img.shields.io/badge/Download-blue?logo=Visual-Studio-Code&style=for-the-badge)](https://github.com/snhossain/bootstrapoptimization/archive/refs/heads/v1.0.0.zip)
 
