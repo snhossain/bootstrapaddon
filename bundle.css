@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+:root {
+	--green: #1e5534;
+	--yellow: #ffcd32;
+	--darkyellow: #ecb228;
+	--red: #eb0000;
+	--warning: #a69456;
+	--black: #100c09;
+	--blackbanner: #262626;
+	--blue: #5461ff;
+	--darkblue: #2f3dda;
+	--darkgreen: #174228;
+	--font-default: "Roboto", sans-serif;
+}
+textarea:focus,
+input:focus {
+	outline: none;
+}
+html {
+	width: 100% !important;
+}
+body {
+	width: 100% !important;
+	position: relative;
+	background-color: white;
+	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
+	top: 0px !important;
+}
+@media (min-width: 1800px) {
+	.body {
+		width: 80% !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 2100px) {
+	.body {
+		width: 80% !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 2300px) {
+	.body {
+		width: 79% !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.body {
+	overflow-x: hidden !important;
+	max-width: 100% !important;
+}
+.all-uppercase {
+	text-transform: uppercase;
+}
+.word-uppercase {
+	text-transform: capitalize;
+}
+.all-lowercase {
+	text-transform: lowercase;
+}
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.animation-paused {
+	animation-play-state: paused !important;
+	-webkit-animation-play-state: paused !important;
+	-moz-animation-play-state: paused !important;
+}
+@-moz-keyframes spin {
+	50% {
+		-moz-transform: rotate(10deg);
+	}
+
+	100% {
+		-moz-transform: rotate(0deg);
+	}
+}
+@-webkit-keyframes spin {
+	50% {
+		-webkit-transform: rotate(10deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(0deg);
+	}
+}
+@keyframes spin {
+	50% {
+		-webkit-transform: rotate(10deg);
+		transform: rotate(10deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+}
+@-moz-keyframes scale {
+	50% {
+		-moz-transform: scale(0.8);
+	}
+
+	100% {
+		-moz-transform: scale(1);
+	}
+}
+@-webkit-keyframes scale {
+	50% {
+		-webkit-transform: scale(0.8);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+@keyframes scale {
+	50% {
+		-webkit-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
