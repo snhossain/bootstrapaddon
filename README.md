@@ -1,6 +1,6 @@
-**Optimization for Bootstrap**<br>
-Additional addons to help bootstrap to flow smoothly and increasing website speed, while supporting dark and light mode.
 [![](https://img.shields.io/badge/Download-111?logo=Visual-Studio-Code&style=for-the-badge)](https://github.com/snhossain/bootstrapoptimization/archive/refs/heads/v1.0.0.zip)
+## Optimization for Bootstrap
+Additional addons to help bootstrap to flow smoothly and increasing website speed, while supporting dark and light mode.<br>
 
 **Requirements**<br>
 *Do not use the latest bootstrap version since it has too many issues, uses more space (slower load time) and useless new features. Instead use the older version of bootstrap.*<br>
@@ -41,3 +41,6 @@ If you encountered any issues with installing the css to your site, use the temp
 	    </body>
 
     </html>
+
+> This project is original and created to help other developers that are using Bootstrap.
+
