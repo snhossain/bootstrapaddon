@@ -4,7 +4,7 @@ Additional addons to help bootstrap to flow smoothly and increasing website spee
 
 **Requirements**<br>
 *Do not use the latest bootstrap version since it has too many issues, uses more space (slower load time) and useless new features. Instead use the older version of bootstrap.*<br>
-[![](https://img.shields.io/badge/v5.2.3-Download-blue?logo=cloudbees&logoColor=white&style=flat)](https://github.com/snhossain/bootstrapoptimization/archive/refs/heads/v1.0.0.zip)
+[![](https://img.shields.io/badge/v5.2.3-Download-blue?logo=cloudbees&logoColor=white&style=flat)]([https://github.com/snhossain/bootstrapoptimization/archive/refs/heads/v1.0.0.zip](https://github.com/nyc-nahid/bootstrapoptimization/releases/))
 
 **How to Use**<br>
 Having trouble setting up your bootstrap or optimization css file? Follow the steps!
