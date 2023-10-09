@@ -23,7 +23,7 @@ If you encountered any issues with installing the css to your site, use the temp
     <html  lang="en">
 
 	    <head>
-	        <!-- Website Setup -->
+	            <!-- Website Setup -->
 		    <meta  charset="utf-8"  />
 		    <meta  name="viewport"  content="width=device-width, initial-scale=1"  />
 		    <title>New Website - Who's This?</title>
@@ -36,7 +36,7 @@ If you encountered any issues with installing the css to your site, use the temp
 	    <body>
 		    <h1>Your Code Here</h1>
 
-			<!-- Bootstrap -->
+		    <!-- Bootstrap -->
 		    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	    </body>
 
