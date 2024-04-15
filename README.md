@@ -14,7 +14,8 @@ Having trouble setting up your bootstrap or optimization css file? Follow the st
 2. Add Bootstrap into your html or php file. *(Remember, the javascript code must be in the end of your code)*
 3. Link the CSS into your html or php file (After the Bootstrap CSS).
  `<link  rel="stylesheet"  href="bundle.css"  />`
- 4. Your finished!
+ 4. In the bundle.css file change "font name" and "type" to your own chosen font.
+ 5. Your finished!
 
 
 **Template**<br>
