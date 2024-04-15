@@ -15,7 +15,7 @@
 }
 textarea:focus,
 input:focus {
-	outline: none;
+	outline: none !important;
 }
 html {
 	width: 100% !important;
@@ -24,7 +24,7 @@ body {
 	width: 100% !important;
 	position: relative;
 	background-color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: "<font>", <type>;
 	overflow-x: hidden;
 	top: 0px !important;
 }
@@ -106,7 +106,7 @@ body {
 }
 @-moz-keyframes scale {
 	50% {
-		-moz-transform: scale(0.8);
+		-moz-transform: scale(0.9);
 	}
 
 	100% {
@@ -115,7 +115,7 @@ body {
 }
 @-webkit-keyframes scale {
 	50% {
-		-webkit-transform: scale(0.8);
+		-webkit-transform: scale(0.9);
 	}
 
 	100% {
@@ -124,7 +124,7 @@ body {
 }
 @keyframes scale {
 	50% {
-		-webkit-transform: scale(0.8);
+		-webkit-transform: scale(0.9);
 		transform: scale(0.8);
 	}
 
