@@ -11,23 +11,29 @@
 	--blue: #5461ff;
 	--darkblue: #2f3dda;
 	--darkgreen: #174228;
-	--font-default: "Roboto", sans-serif;
+	--font-default: "Font Name", type;
 }
+
 textarea:focus,
 input:focus {
-	outline: none;
+	outline: none !important;
 }
+
 html {
 	width: 100% !important;
 }
+
 body {
 	width: 100% !important;
 	position: relative;
 	background-color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: "Font Name",
+		type;
 	overflow-x: hidden;
+	font-optical-sizing: auto;
 	top: 0px !important;
 }
+
 @media (min-width: 1800px) {
 	.body {
 		width: 80% !important;
@@ -35,6 +41,7 @@ body {
 		margin-right: auto;
 	}
 }
+
 @media (min-width: 2100px) {
 	.body {
 		width: 80% !important;
@@ -42,6 +49,7 @@ body {
 		margin-right: auto;
 	}
 }
+
 @media (min-width: 2300px) {
 	.body {
 		width: 79% !important;
@@ -49,19 +57,24 @@ body {
 		margin-right: auto;
 	}
 }
+
 .body {
 	overflow-x: hidden !important;
 	max-width: 100% !important;
 }
+
 .all-uppercase {
 	text-transform: uppercase;
 }
+
 .word-uppercase {
 	text-transform: capitalize;
 }
+
 .all-lowercase {
 	text-transform: lowercase;
 }
+
 .no-select {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -70,11 +83,13 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 }
+
 .animation-paused {
 	animation-play-state: paused !important;
 	-webkit-animation-play-state: paused !important;
 	-moz-animation-play-state: paused !important;
 }
+
 @-moz-keyframes spin {
 	50% {
 		-moz-transform: rotate(10deg);
@@ -84,6 +99,7 @@ body {
 		-moz-transform: rotate(0deg);
 	}
 }
+
 @-webkit-keyframes spin {
 	50% {
 		-webkit-transform: rotate(10deg);
@@ -93,6 +109,7 @@ body {
 		-webkit-transform: rotate(0deg);
 	}
 }
+
 @keyframes spin {
 	50% {
 		-webkit-transform: rotate(10deg);
@@ -104,27 +121,30 @@ body {
 		transform: rotate(0deg);
 	}
 }
+
 @-moz-keyframes scale {
 	50% {
-		-moz-transform: scale(0.8);
+		-moz-transform: scale(0.9);
 	}
 
 	100% {
 		-moz-transform: scale(1);
 	}
 }
+
 @-webkit-keyframes scale {
 	50% {
-		-webkit-transform: scale(0.8);
+		-webkit-transform: scale(0.9);
 	}
 
 	100% {
 		-webkit-transform: scale(1);
 	}
 }
+
 @keyframes scale {
 	50% {
-		-webkit-transform: scale(0.8);
+		-webkit-transform: scale(0.9);
 		transform: scale(0.8);
 	}
 
